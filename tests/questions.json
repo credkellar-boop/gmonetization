@@ -1,0 +1,35 @@
+{
+  "passThreshold": 85,
+  "questions": [
+    {
+      "module": "Video & Live Streaming",
+      "question": "What is the standard ad revenue split for creators in the YouTube Partner Program (long-form video)?",
+      "options": ["A) 50/50", "B) 55/45", "C) 70/30", "D) 45/55"],
+      "answer": "B"
+    },
+    {
+      "module": "Video & Live Streaming",
+      "question": "Which streaming platform disrupted the market by offering a 95/5 subscription revenue split?",
+      "options": ["A) Twitch", "B) YouTube Live", "C) Kick", "D) Facebook Gaming"],
+      "answer": "C"
+    },
+    {
+      "module": "Social Commerce",
+      "question": "To earn ad revenue sharing on X (Twitter), what metric is payout directly based on?",
+      "options": ["A) Total follower count", "B) Verified ad impressions in your replies", "C) Number of retweets", "D) Total video views"],
+      "answer": "B"
+    },
+    {
+      "module": "Direct Fan Subscriptions",
+      "question": "What flat fee percentage does OnlyFans take from creator earnings?",
+      "options": ["A) 10%", "B) 15%", "C) 20%", "D) 25%"],
+      "answer": "C"
+    },
+    {
+      "module": "Newsletters & Micro-Donations",
+      "question": "How does Medium calculate payouts for writers in its Partner Program?",
+      "options": ["A) Flat rate per article", "B) Based on member read time", "C) Number of claps", "D) Ad clicks within the article"],
+      "answer": "B"
+    }
+  ]
+}
