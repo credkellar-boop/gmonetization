@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#0d1117" rx="15" ry="15" />
+  <rect width="780" height="580" x="10" y="10" fill="none" stroke="#30363d" stroke-width="4" rx="10" ry="10" />
+  
+  <!-- Subtle Grid Pattern -->
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#161b22" stroke-width="1"/>
+  </pattern>
+  <rect width="800" height="600" fill="url(#grid)" rx="15" ry="15" />
+
+  <!-- Header -->
+  <text x="400" y="120" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#58a6ff" text-anchor="middle" letter-spacing="2">
+    CERTIFICATE OF COMPLETION
+  </text>
+  
+  <text x="400" y="170" font-family="Arial, sans-serif" font-size="18" fill="#8b949e" text-anchor="middle">
+    THIS CERTIFIES THAT
+  </text>
+
+  <!-- User Name Placeholder -->
+  <text x="400" y="250" font-family="Courier New, monospace" font-size="48" font-weight="bold" fill="#c9d1d9" text-anchor="middle">
+    @credkellar-boop
+  </text>
+
+  <!-- Body -->
+  <text x="400" y="320" font-family="Arial, sans-serif" font-size="18" fill="#8b949e" text-anchor="middle">
+    has successfully completed the open-source curriculum:
+  </text>
+  
+  <text x="400" y="370" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#f0f6fc" text-anchor="middle">
+    Gmonetization: Top 20 Platforms
+  </text>
+
+  <text x="400" y="420" font-family="Arial, sans-serif" font-size="16" fill="#8b949e" text-anchor="middle">
+    Mastering algorithmic revenue splits, fan subscriptions, and digital product strategies.
+  </text>
+
+  <!-- Footer Details -->
+  <line x1="150" y1="500" x2="300" y2="500" stroke="#30363d" stroke-width="2" />
+  <text x="225" y="525" font-family="Arial, sans-serif" font-size="14" fill="#8b949e" text-anchor="middle">
+    Date: May 27, 2026
+  </text>
+
+  <line x1="500" y1="500" x2="650" y2="500" stroke="#30363d" stroke-width="2" />
+  <text x="575" y="525" font-family="Arial, sans-serif" font-size="14" fill="#8b949e" text-anchor="middle">
+    Score: 100
+  </text>
+
+  <!-- Signature Logo -->
+  <circle cx="400" cy="500" r="30" fill="#238636" />
+  <text x="400" y="508" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    GM
+  </text>
+</svg>
