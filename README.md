@@ -1,4 +1,4 @@
-# Gmonetization 🚀
+ # Gmonetization 🚀
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![GitHub issues](https://img.shields.io/github/issues/credkellar-boop/Gmonetization)](https://github.com/credkellar-boop/Gmonetization/issues)
@@ -44,7 +44,7 @@ The course clusters the top 20 monetization platforms into 5 distinct core modul
 
 Each module concludes with an automated evaluation. The test suite checks your grasp of platform revenue splits, compliance policies, and audience-building tactics.
 
-1. Install dependencies:
+1. **Install dependencies:**
 ```bash
    npm install
 
