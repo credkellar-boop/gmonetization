@@ -1,6 +1,7 @@
 name: Issue Gmonetization Certificate
 
 on:
+  workflow_dispatch: # Adds a button to trigger manually via the UI
   pull_request:
     types: [opened, synchronize]
     paths:
@@ -27,8 +28,8 @@ jobs:
       - name: Generate SVG Certificate
         run: |
           # Pass the GitHub username of the person who opened the PR
-          node templates/generate-cert.js "${{ github.actor }}" "100"
-
+          node templates/generate-cert.js '${{ github.actor }}' '100'
+          
       - name: Commit Certificate to PR Branch
         run: |
           git config --global user.name "github-actions[bot]"
@@ -36,9 +37,3 @@ jobs:
           git add certificates/
           git commit -m "🎓 Auto-generated certificate for ${{ github.actor }}" || echo "No changes to commit"
           git push
-on:
-  workflow_dispatch: # Adds a button to trigger manually via the UI
-  pull_request:
-    types: [opened, synchronize]
-    paths:
-      - 'pass.log'
