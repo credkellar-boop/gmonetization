@@ -36,3 +36,9 @@ jobs:
           git add certificates/
           git commit -m "🎓 Auto-generated certificate for ${{ github.actor }}" || echo "No changes to commit"
           git push
+on:
+  workflow_dispatch: # Adds a button to trigger manually via the UI
+  pull_request:
+    types: [opened, synchronize]
+    paths:
+      - 'pass.log'
