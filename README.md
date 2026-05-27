@@ -47,3 +47,24 @@ Each module concludes with an automated evaluation. The test suite checks your g
 1. Install dependencies:
 ```bash
    npm install
+
+
+Gmonetization/
+├── .github/
+│   └── workflows/
+│       └── issue-certificate.yml  # Automates certificate issuance via Actions
+├── courses/
+│   ├── 01-video-streaming/        # YouTube, Twitch, Kick
+│   ├── 02-social-commerce/        # X, TikTok, Instagram, FB, Snap, Pinterest
+│   ├── 03-fan-subscriptions/      # OnlyFans, Patreon, Fanvue, Fansly
+│   ├── 04-digital-knowledge/      # Gumroad, Mighty Networks, Teachable
+│   └── 05-writing-tipping/        # Substack, Medium, Ko-fi, Buy Me a Coffee
+├── tests/
+│   ├── quiz-engine.js             # CLI or web-based testing framework
+│   └── questions.json             # Bank of validation questions
+├── templates/
+│   ├── certificate-template.svg   # Customizable SVG vector certificate layout
+│   └── generate-cert.js           # Script to dynamically populate SVG data
+├── config.json                    # Course metadata & user passing configurations
+├── LICENSE                        # MIT or Apache open-source distribution rights
+└── README.md                      # Main landing page documentation
